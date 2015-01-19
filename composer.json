@@ -1,16 +1,16 @@
 {
-    "name": "shashthecode/check-translation-bundle",
+    "name": "smashthecode/check-translation-bundle",
     "type": "symfony-bundle",
     "description": "TODO",
-    "keywords": [ "shashthecode", "translation"],
-    "homepage": "https://github.com/shashthecode/StcCheckTranslationBundle",
+    "keywords": [ "smashthecode", "translation"],
+    "homepage": "https://github.com/smashthecode/StcCheckTranslationBundle",
     "license": "MIT",
     "minimum-stability": "dev",
     "authors": [
         {
             "name": "over the code",
-            "homepage": "http://shashthecode.com/",
-            "email": "labs@shashthecode.com"
+            "homepage": "http://smashthecode.com/",
+            "email": "labs@smashthecode.com"
         }
     ],
     "require": {
