@@ -1,0 +1,25 @@
+{
+    "name": "overthecode/check-translation-bundle",
+    "type": "symfony-bundle",
+    "description": "TODO",
+    "keywords": [ "overthecode", "translation"],
+    "homepage": "https://github.com/overthecode/OtcCheckTranslationBundle",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "over the code",
+            "homepage": "http://overthecode.com/",
+            "email": "labs@overthecode.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/symfony": "~2.0",
+        "symfony/yaml": "~2.0"
+    },
+    "autoload": {
+        "psr-0": { "Otc\\CheckTranslationBundle": "" }
+    },
+    "target-dir": "Otc/CheckTranslationBundle"
+}
