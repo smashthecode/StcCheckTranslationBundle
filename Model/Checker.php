@@ -1,5 +1,5 @@
 <?php
-namespace Otc\CheckTranslationBundle\Model;
+namespace Stc\CheckTranslationBundle\Model;
 
 class Checker
 {
@@ -111,7 +111,7 @@ class Checker
 
                 if ($file->getExplode($key) === false) {
                     $error = true;
-                    $output = $this->translator->trans('otc.check.translation.not.found', array(
+                    $output = $this->translator->trans('stc.check.translation.not.found', array(
                         '%first_value%' => $value,
                         '%first_line%' => $key + 1,
                         '%first_file%' => $this->getLargestArray()->getPath(),
@@ -121,7 +121,7 @@ class Checker
                 } else {
                     if ($file->getExplode($key) != $value) {
                         $error = true;
-                        $output = $this->translator->trans('otc.check.translation.not.found', array(
+                        $output = $this->translator->trans('stc.check.translation.not.found', array(
                             '%first_value%' => $value,
                             '%first_line%' => $key + 1,
                             '%first_file%' => $this->getLargestArray()->getPath(),
@@ -139,7 +139,7 @@ class Checker
         }
 
         if (!$this->getOutput()) {
-            $output = $this->translator->trans('otc.check.translation.success', array(
+            $output = $this->translator->trans('stc.check.translation.success', array(
                 '%first_file%' => $this->getLargestArray()->getFile(),
             ));
 

@@ -3,7 +3,7 @@
     "type": "symfony-bundle",
     "description": "TODO",
     "keywords": [ "overthecode", "translation"],
-    "homepage": "https://github.com/overthecode/OtcCheckTranslationBundle",
+    "homepage": "https://github.com/overthecode/StcCheckTranslationBundle",
     "license": "MIT",
     "minimum-stability": "dev",
     "authors": [
@@ -19,7 +19,7 @@
         "symfony/yaml": "~2.0"
     },
     "autoload": {
-        "psr-0": { "Otc\\CheckTranslationBundle": "" }
+        "psr-0": { "Stc\\CheckTranslationBundle": "" }
     },
-    "target-dir": "Otc/CheckTranslationBundle"
+    "target-dir": "Stc/CheckTranslationBundle"
 }

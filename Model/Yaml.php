@@ -1,5 +1,5 @@
 <?php
-namespace Otc\CheckTranslationBundle\Model;
+namespace Stc\CheckTranslationBundle\Model;
 
 use Symfony\Component\Yaml\Parser;
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace Otc\CheckTranslationBundle;
+namespace Stc\CheckTranslationBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class OtcCheckTranslationBundle extends Bundle
+class StcCheckTranslationBundle extends Bundle
 {
 }

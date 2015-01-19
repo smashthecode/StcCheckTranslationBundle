@@ -1,3 +1,3 @@
-otc.check.translation.not.found: Wartość "%first_value%" znaleziona w linii "%first_line%" w pliku "%first_file%" nie została znaleziona w pliku "%second_file%".
-otc.check.translation.not.the.same: Wartość "%first_value%" znaleziona w linii "%first_line%" w pliku "%first_file%" nie jest taki sam jak klucz "%second_value%" w pliku "%second_file%.
-otc.check.translation.success: Plik "%first_file%" jest zgodny.
+stc.check.translation.not.found: Wartość "%first_value%" znaleziona w linii "%first_line%" w pliku "%first_file%" nie została znaleziona w pliku "%second_file%".
+stc.check.translation.not.the.same: Wartość "%first_value%" znaleziona w linii "%first_line%" w pliku "%first_file%" nie jest taki sam jak klucz "%second_value%" w pliku "%second_file%.
+stc.check.translation.success: Plik "%first_file%" jest zgodny.

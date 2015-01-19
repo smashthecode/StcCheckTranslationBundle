@@ -1,11 +1,11 @@
 <?php
 
-namespace Otc\CheckTranslationBundle\Command;
+namespace Stc\CheckTranslationBundle\Command;
 
 use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
-use Otc\CheckTranslationBundle\Model\Checker;
+use Stc\CheckTranslationBundle\Model\Checker;
 
 class CheckTranslationCommand extends ContainerAwareCommand
 {
@@ -15,7 +15,7 @@ class CheckTranslationCommand extends ContainerAwareCommand
     protected function configure()
     {
         $this
-            ->setName('otc:check-translation')
+            ->setName('stc:check-translation')
             ->setDescription('Check translations structure.');
     }
 
@@ -30,8 +30,8 @@ class CheckTranslationCommand extends ContainerAwareCommand
     {
         $container = $this->getContainer();
 
-        $files = $container->getParameter( 'otc_check_translation.files');
-        $locales = $container->getParameter( 'otc_check_translation.locales');
+        $files = $container->getParameter( 'stc_check_translation.files');
+        $locales = $container->getParameter( 'stc_check_translation.locales');
 
         $output->writeln('================================================');
         $hasErrors = false;
