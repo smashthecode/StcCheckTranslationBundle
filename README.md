@@ -10,7 +10,7 @@ StcCheckTranslationBundle
         "repositories": [
             {
                 "type": "vcs",
-                "url":  "https://github.com/overthecode/StcCheckTranslationBundle.git"
+                "url":  "https://github.com/smashthecode/StcCheckTranslationBundle.git"
             }
         ],
 
